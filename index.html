@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+</head>
+<body>
+
+  <!----
+
+  <div class="dropdown">
+    <img src="/Img/Burger Menu Icon.png"id="burgermenu" onclick="myFunction()" class="dropbtn">
+    <div id="myDropdown" class="dropdown-content">
+        <li><a href="/index.html">About Us</a></li>
+        <li><a href="/Gallery.html">Gallery</a></li>
+        <li><a href="/Events.html">Events</a></li>
+        <li>Tours</li>
+    </div>
+</div>
+
+-->
+
+    <div class="Background-Home-Page">
+
+
+        <div class="logo">
+            <a href="/index.html"><img src="/IMG/Chowdown Logo.png"></a>
+        </div>
+
+      
+
+
+
+        <div class="Top-Menu-bar">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/Gallery.html">Hotel</a></li>
+            <li><a href="/Events.html">Events</a></li>
+            <li><a href="/Tour.html">Tours</a></li>
+
+        </div>
+
+       
+
+        <h2>Stay "<span> <a href="/Hungry.html">HUNGRY </a></span>" <span id=AND >&</span> " <span id="ADVENTEROUS"><a href="/Thirsty.html">THIRSTY</a> </span>" Like a
+          <span id="Pacman">PAC-MAN </span>.
+          <br>
+           
+          <p><span id="click">Click</span> " HUNGRY " to see what to eat & " THIRSTY " to see what to drink.</p>
+          
+          
+        </h2>
+
+        
+
+      
+       
+
+    </div>
+
+
+      
+    
+        
+
+    <div class="About-us-box">
+        <h1>About Us</h1>
+        <p>Hi there, and welcome to Chowdown ! We are a travel & foodie
+           guide created in 2024 with the goal of introducing 
+           both local & international tourist to experience local food
+           & cafe through exciting & fun social events.
+        </p>
+
+    </div>
+
+    <!---
+    
+    <div class="Title-box-social-media">
+        <h2>Social Media</h2>
+    </div>
+ 
+  -->
+    
+
+
+    <div class="Socia-Media-Box">
+        <a href="#"><img src="/IMG/facebook-icon-white color-png-774.png" id="facebook"></a>
+        <a href="https://www.instagram.com/chowdown_my/?igsh=MXFxcnF6aW94ZThyNw%3D%3D&utm_source=qr"><img src="/IMG/Intsgram icon white color .png" id="instagram"></a>
+        <a href="#"><img src="/IMG/VK Logo.png" id="VK"></a>
+        
+    </div>
+
+
+    <div class="Menu-bar">
+
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/Gallery.html">Hotels</a></li>
+        <li><a href="/Events.html">Events</a></li>
+        <li><a href="/Tour.html">Tours</a></li>
+    </div>
+    
+  
+
+    <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+        </script>
+
+</body>
+</html>

@@ -1,0 +1,396 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background:none;
+    
+ }
+
+ body{
+   background-color:  rgb(255, 255, 255);
+ }
+
+
+ /* First Section -- Also the background of Home Page */
+
+ .Background-Home-Page {
+
+    border:none;
+    border-left: black;
+    border-right: black;
+    height:100vh;
+    background-color: rgb(50, 116, 161);
+    display: flex;
+    justify-content: center;
+    
+    
+ }
+
+ .logo img {
+   height:60vh;
+   position: relative;
+   top:100pt;
+   padding:0em;
+   border:2px solid white;
+ }
+
+ /* Second section for Menu-bar */
+
+ .Menu-bar {
+    border-top:2px solid rgb(0, 0, 0);
+    border-bottom:2px solid rgb(0, 0, 0);
+    height:20vh;
+    display:flex;
+    justify-content: center;
+ }
+
+
+ .Menu-bar li {
+    list-style: none;
+    border:2px solid rgb(0, 0, 0);
+    color: azure;
+    background: rgb(0, 0, 0);
+    width:100%;
+    text-align: center;
+    text-decoration: none;
+    padding:1.7em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    
+ }
+
+ .Menu-bar a {
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+   
+ }
+
+ .Menu-bar a:hover{
+   color: rgb(35, 150, 216);
+
+ }
+
+
+  /* Third section for Gallery Section */
+
+ .Gallery-Main-Box {
+
+    border:3px solid rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    height:980vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: none;
+   
+
+
+ }
+
+ .Gallery-Main-Box h1 {
+
+    border:2px solid rgb(0, 0, 0);
+    background: rgb(0, 0, 0);
+    color:rgb(122, 206, 245);
+    height:10vh;
+    padding:3em;
+    padding-top: 0em;
+    padding-bottom: 1em;
+    padding-left: 2.7em;
+    width:100%;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    position:relative;
+    text-align: left;
+ }
+
+ .Box-For-Pic {
+
+   border:2px solid rgb(0, 0, 0);
+   position:absolute;
+   padding:0.5em;
+   top:100pt;
+   
+   
+ }
+
+ .Box-For-Pic p {
+  color:white;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  border:3px solid rgb(0, 0, 0);
+  padding:5em;
+  padding-top: 0em;
+ }
+
+ .Box-For-Pic img {
+   padding:5em;
+   border: none;
+   display: block;
+   width:70%;
+  
+ }
+
+
+ .Box-For-Pic a {
+
+  color:rgb(100, 208, 255);
+ }
+
+
+
+
+ /*First Minimization*/
+
+ @media only screen and (max-width: 580px) {
+
+   .Background-Home-Page {
+
+      border:none;
+      border-left: black;
+      border-right: black;
+      height:100vh;
+      background-color: rgb(50, 116, 161);
+      display: flex;
+      justify-content: center;
+      
+      
+   }
+  
+   /* Second section for Menu-bar */
+  
+   .Menu-bar {
+      border-top:2px solid rgb(255, 255, 255);
+      border-bottom:2px solid rgb(255, 255, 255);
+      height:14vh;
+      display:flex;
+      justify-content: center;
+   }
+  
+  
+   .Menu-bar li {
+      list-style: none;
+      border:2px solid rgb(0, 0, 0);
+      color: azure;
+      background: rgb(0, 0, 0);
+      width:100%;
+      text-align: center;
+      text-decoration: none;
+      padding:1.7em;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+      cursor: pointer;
+      
+   }
+  
+   .Menu-bar a {
+     color: rgb(255, 255, 255);
+     text-decoration: none;
+     
+   }
+  
+   .Menu-bar a:hover{
+     color: rgb(35, 150, 216);
+  
+   }
+  
+  
+    /* Third section for Gallery Section */
+  
+   .Gallery-Main-Box {
+  
+      border:3px solid rgb(0, 0, 0);
+      background: black;
+      height:690vh;
+      display: flex;
+      justify-content: center;
+      position: relative;
+     
+  
+  
+   }
+  
+   .Gallery-Main-Box h1 {
+  
+    border:2px solid rgb(0, 0, 0);
+    background: rgb(0, 0, 0);
+    color:rgb(122, 206, 245);
+    height:10vh;
+    padding:3em;
+    padding-top: 0em;
+    padding-bottom: 1em;
+    padding-left: 2.7em;
+    width:100%;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    position:relative;
+    text-align: left;
+   }
+  
+   .Box-For-Pic {
+
+  
+     border:2px solid rgb(0, 0, 0);
+     background: rgb(0, 0, 0);
+     position:absolute;
+     padding:0.5em;
+     top:70pt;
+     
+     
+   }
+  
+   .Box-For-Pic img {
+    padding:4.5em;
+    border: none;
+    display: block;
+    width:85%;
+    
+   }
+
+}
+
+
+/* Iphone 14 Pro Max */
+
+@media only screen and (max-width: 430px) {
+
+   /* First Section -- Also the background of Home Page */
+
+ .Background-Home-Page {
+
+   border:none;
+   border-left: black;
+   border-right: black;
+   height:23vh;
+   background-color: rgb(50, 116, 161);
+   display: flex;
+   justify-content: center;
+   
+   
+}
+
+.logo img {
+  height:13vh;
+  padding:0em;
+  border:1px solid white;
+  position: relative;
+  top:24pt;
+}
+
+/* Second section for Menu-bar */
+
+.Menu-bar {
+   border-top:2px solid rgb(0, 0, 0);
+   border-bottom:2px solid rgb(0, 0, 0);
+   height:7vh;
+   display:flex;
+   justify-content: center;
+   position:relative;
+   top:0pt;
+}
+
+
+.Menu-bar li {
+   list-style: none;
+   border:2px solid rgb(0, 0, 0);
+   color: azure;
+   background: rgb(0, 0, 0);
+   width:100%;
+   text-align: center;
+   text-decoration: none;
+   padding:1.7em;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 10px;
+   font-weight: 600;
+   cursor: pointer;
+   
+}
+
+.Menu-bar a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  
+}
+
+.Menu-bar a:hover{
+  color: rgb(35, 150, 216);
+
+}
+
+
+ /* Third section for Gallery Section */
+
+.Gallery-Main-Box {
+
+   border:3px solid rgb(0, 0, 0);
+   background: rgb(0, 0, 0);
+   height:380vh;
+   display: flex;
+   justify-content: center;
+   position: absolute;
+   width:100%;
+   padding: 1em;
+  
+
+
+}
+
+.Gallery-Main-Box h1 {
+
+   border:none;
+   background: rgb(211, 178, 178);
+   color:rgb(149, 208, 235);
+   height:0vh;
+   padding:0em;
+   width:100%;
+   text-decoration: none;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 16px;
+   font-weight: 900;
+   position:relative;
+   text-align: center;
+   top:0pt;
+   
+}
+
+.Box-For-Pic {
+
+  border:2px solid rgb(0, 0, 0);
+  background: rgb(0, 0, 0);
+  position:absolute;
+  padding:0.5em;
+  top:25pt;
+  
+  
+}
+
+
+
+.Box-For-Pic img {
+  padding:3em;
+  border: none;
+  display: block;
+  width:100%;
+ 
+}
+
+.Box-For-Pic p {
+  color:white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 12px;
+  border:3px solid rgb(0, 0, 0);
+  padding:1.9em;
+  width:100%;
+ }
+}
+
+
+ 

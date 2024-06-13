@@ -1,0 +1,510 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background:none;
+    
+ }
+
+ body{
+   background-color:  rgb(255, 255, 255);
+ }
+
+
+ /* First Section -- Also the background of Home Page */
+
+ .Background-Home-Page {
+
+    border:none;
+    border-left: black;
+    border-right: black;
+    height:100vh;
+    background-color: rgb(50, 116, 161);
+    display: flex;
+    justify-content: center;
+    
+    
+ }
+
+ .logo img {
+   height:60vh;
+   position: relative;
+   top:100pt;
+   padding:0em;
+   border:2px solid white;
+ }
+
+ /* Second section for Menu-bar */
+
+ .Menu-bar {
+    border-top:2px solid rgb(0, 0, 0);
+    border-bottom:2px solid rgb(0, 0, 0);
+    height:20vh;
+    display:flex;
+    justify-content: center;
+ }
+
+
+ .Menu-bar li {
+    list-style: none;
+    border:2px solid rgb(0, 0, 0);
+    color: azure;
+    background: rgb(0, 0, 0);
+    width:100%;
+    text-align: center;
+    text-decoration: none;
+    padding:2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    
+ }
+
+ .Menu-bar a {
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+   
+ }
+
+ .Menu-bar a:hover{
+   color: rgb(35, 150, 216);
+
+ }
+
+ /* The Tour Section Main Box */
+
+ .Main-Tour-Box {
+
+  height:830vh;
+  border:1px solid rgb(0, 0, 0);
+  display:inline-block;
+  padding:5em;
+  background: rgb(0, 0, 0);
+   
+ }
+
+ .Main-Tour-Box h1 {
+  padding-bottom:1em;
+  color: rgb(160, 234, 242);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 46px;
+  text-align: none;
+  text-decoration:none;
+  
+ 
+
+ }
+
+
+ .Main-Tour-Box p {
+  border:2px solid rgb(0, 0, 0);
+  color: rgb(235, 184, 184);
+  padding:1em;
+  padding-left: 0em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 20px;
+
+ }
+
+ .Main-Tour-Box img {
+  width:40%;
+  
+  
+ }
+
+
+ .Main-Tour-Box a {
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+
+
+ .Main-Tour-Box span {
+
+  font-weight: 900;
+  color:rgb(255, 255, 255)
+ }
+
+ .Main-Tour-Box h3 {
+  color: rgb(160, 234, 242);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+ }
+
+ .Main-Tour-Box h6 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 900;
+  color: red;
+  font-size: 16px;
+  text-decoration: underline;
+ }
+
+ .Main-Tour-Box button {
+  color:rgb(160, 234, 242);
+  background: rgb(0, 0, 0);
+  padding:1em;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 0.5em;
+
+ }
+
+ /* Tour Guide Box */
+
+
+ .Tour-Guide-Info-Box {
+
+  border:2px solid rgb(255, 255, 255);
+  background-color: rgb(231, 243, 250);
+  padding:3em;
+  position: relative;
+  top:100pt;
+  
+
+ }
+
+ .Tour-Guide-Info-Box h1 {
+
+  padding:0.5em;
+
+ }
+
+ .Tour-Guide-Info-Box p {
+  border:none;
+  padding-left:1em;
+ }
+
+ .Tour-Guide-Info-Box h2 {
+  border:none;
+  padding-left:0.7em;
+ }
+
+ .Tour-Guide-Info-Box img {
+
+  width:30%;
+  padding:1em;
+  
+
+ }
+
+
+
+ /*First Minimization*/
+
+ @media only screen and (max-width: 580px) {
+
+  .Background-Home-Page {
+
+     border:none;
+     border-left: black;
+     border-right: black;
+     height:100vh;
+     background-color: rgb(50, 116, 161);
+     display: flex;
+     justify-content: center;
+     
+     
+  }
+
+
+  .logo img {
+    height:40vh;
+    position: relative;
+    top:150pt;
+    padding:0em;
+    border:2px solid white;
+  }
+ 
+  /* Second section for Menu-bar */
+ 
+  .Menu-bar {
+     border-top:2px solid rgb(255, 255, 255);
+     border-bottom:2px solid rgb(255, 255, 255);
+     height:14vh;
+     display:flex;
+     justify-content: center;
+  }
+ 
+ 
+  .Menu-bar li {
+     list-style: none;
+     border:2px solid rgb(0, 0, 0);
+     color: azure;
+     background: rgb(0, 0, 0);
+     width:100%;
+     text-align: center;
+     text-decoration: none;
+     padding:1.7em;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 20px;
+     font-weight: 600;
+     cursor: pointer;
+     
+  }
+ 
+  .Menu-bar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+  }
+ 
+  .Menu-bar a:hover{
+    color: rgb(35, 150, 216);
+ 
+  }
+
+  /* The Tour Section Main Box */
+
+ .Main-Tour-Box {
+
+  height:440vh;
+  border:1px solid rgb(0, 0, 0);
+  display:inline-block;
+  padding:5em;
+  
+ }
+
+ .Main-Tour-Box h1 {
+  padding-bottom:1em;
+  text-align: none;
+ 
+
+ }
+
+
+ .Main-Tour-Box p {
+  border:2px solid rgb(0, 0, 0);
+  padding:1em;
+  padding-left: 0em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+
+ }
+
+ .Main-Tour-Box img {
+  width:40%;
+  
+  
+ }
+
+ /* Tour Guide Box */
+
+
+ .Tour-Guide-Info-Box {
+
+  border:2px solid rgb(0, 0, 0);
+  background-color: rgb(231, 243, 250);
+  padding:3em;
+  
+
+ }
+
+ .Tour-Guide-Info-Box h1 {
+
+  padding:0.5em;
+
+ }
+
+ .Tour-Guide-Info-Box p {
+  border:1px solid rgb(0, 0, 0);
+  padding-left:1em;
+ }
+
+ .Tour-Guide-Info-Box h2 {
+  border:1px solid rgb(0, 0, 0);
+  padding-left:0.7em;
+ }
+
+ .Tour-Guide-Info-Box img {
+
+  width:40%;
+  padding:1em;
+  
+
+ }
+ 
+ }
+
+
+
+ /* Iphone 14 Pro Max */
+
+@media only screen and (max-width: 430px) {
+
+  .Background-Home-Page {
+
+    border:none;
+    border-left: black;
+    border-right: black;
+    height:23vh;
+    background-color: rgb(50, 116, 161);
+    display: flex;
+    justify-content: center;
+    
+    
+ }
+ 
+ .logo img {
+   height:13vh;
+   padding:0em;
+   border:1px solid white;
+   position: relative;
+   top:24pt;
+ }
+ 
+ /* Second section for Menu-bar */
+ 
+ .Menu-bar {
+    border-top:2px solid rgb(0, 0, 0);
+    border-bottom:2px solid rgb(0, 0, 0);
+    height:7vh;
+    display:flex;
+    justify-content: center;
+    position:relative;
+    top:0pt;
+ }
+ 
+ 
+ .Menu-bar li {
+    list-style: none;
+    border:2px solid rgb(0, 0, 0);
+    color: azure;
+    background: rgb(0, 0, 0);
+    width:100%;
+    text-align: center;
+    text-decoration: none;
+    padding:1.7em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    
+ }
+ 
+ .Menu-bar a {
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+   
+ }
+ 
+ .Menu-bar a:hover{
+   color: rgb(35, 150, 216);
+ 
+ }
+
+
+ /* The Tour Section Main Box */
+
+ .Main-Tour-Box {
+
+  height:300vh;
+  border:1px solid rgb(0, 0, 0);
+  display:inline-block;
+  padding:2.5em;
+  
+ }
+
+ .Main-Tour-Box h1 {
+  padding-bottom:0.5em;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 900;
+  text-decoration: none;
+ 
+
+ }
+
+ .Main-Tour-Box h3 {
+  font-size: 17px;
+
+ }
+
+
+ .Main-Tour-Box p {
+  border:2px solid rgb(0, 0, 0);
+  padding:0em;
+  padding-left: 0em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 14.5px;
+  font-style: normal;
+  
+
+ }
+
+ #paragraph-1 {
+  text-align: center;
+  font-size: 12.5px;
+  font-style: italic;
+ }
+
+ #Swipe {
+  text-align: center;
+  text-decoration: none;
+  font-style: italic;
+  font-size: 14px;
+ }
+
+ .Main-Tour-Box h6 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 900;
+  color: rgb(232, 169, 169);
+  font-size: 10px;
+  text-decoration: none;
+ }
+
+ .Main-Tour-Box img {
+  width:100%;
+  
+  
+ }
+
+ .Main-Tour-Box a {
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  
+ }
+
+ /* Tour Guide Box */
+
+
+ .Tour-Guide-Info-Box {
+
+  border:2px solid rgb(0, 0, 0);
+  background: rgb(231, 243, 250);
+  padding:2.5em;
+  position: relative;
+  top:0pt;
+  
+
+ }
+
+ .Tour-Guide-Info-Box h1 {
+
+  padding:0.5em;
+
+ }
+
+ .Tour-Guide-Info-Box p {
+  border:none;
+  padding-left:1em;
+ }
+
+ .Tour-Guide-Info-Box h2 {
+  border:none;
+  padding-left:0.7em;
+ }
+
+ .Tour-Guide-Info-Box img {
+
+  width:80%;
+  padding:1em;
+  
+
+ }
+}

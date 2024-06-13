@@ -1,0 +1,1281 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background:none;
+    
+ }
+
+ body{
+   background-color:   rgb(0, 0, 0);
+ }
+
+
+ /* First Section -- Also the background of Home Page */
+
+ .Top-Menu-bar {
+  display: inline;
+  position: relative;
+  display: none;
+  
+}
+
+
+
+
+ .Background-Home-Page {
+
+    border:3px solid rgb(140, 225, 251);
+    border-left: black;
+    border-right: black;
+    height:100vh;
+    /*background-color:  rgb(50, 116, 161);*/
+    background-color:  rgb(0, 0, 0);
+    /*background-image: url(/IMG/Pacman\ for\ wall\ paper\ .png);*/
+    background-repeat: no-repeat;
+    background-size:contain;
+    display: flex;
+    justify-content: center;
+    padding-left:0em; 
+    
+ }
+
+ 
+
+
+ .Background-Home-Page h2 {
+    border:none;
+    background:none;
+    height:0vh;
+    padding-top:9.5em;
+    padding-left:0em;
+    padding-right:0em;
+    padding-bottom: 0em;
+    width:100%;
+    border: 2px solid rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    position: absolute;
+    right:0pt;
+    top:0pt;
+    text-align: center;
+ }
+
+ .Background-Home-Page span {
+    color:rgb(0, 0, 0);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+ }
+
+ #AND {
+  color:rgb(255, 255, 255);
+  font-size: 39px;
+ }
+
+ .Background-Home-Page span a {
+  text-decoration: none;
+  color: rgb(58, 181, 225);
+  font-size: 40px;
+ }
+
+ .Background-Home-Page span a:hover {
+  color:rgb(227, 113, 71);
+ }
+
+ #ADVENTEROUS a:hover {
+  color: rgb(0, 255, 157);
+ }
+
+ #Pacman {
+  color:rgb(255, 251, 44);
+  font-size:35px;
+ }
+
+ #click {
+  color:rgb(255, 242, 0);
+  font-size: 16px;
+
+ }
+
+ .Background-Home-Page p {
+  font-size: 14px;
+  padding:1.5em;
+ }
+
+ .logo {
+    border:none;
+    background:none;
+    height:0vh;
+    position: absolute;
+    
+ }
+
+ .logo img {
+    height:25vh;
+    border: 3px solid rgb(140, 225, 251);
+    position: relative;
+    top:30pt;
+ }
+
+
+ 
+  
+  
+
+
+
+ /*
+
+ .dropbtn {
+   background-color: #659dc3;
+   color: rgb(255, 255, 255);
+   padding: 0px;
+   font-size: 16px;
+   border: none;
+   cursor: pointer;
+   
+   
+ }
+
+ #burgermenu {
+   position: absolute;
+   height:10vh;
+   top:18pt;
+   left:20pt;
+ }
+ 
+
+
+ .dropbtn:hover, .dropbtn:focus {
+   background-color: #2980B9;
+ }
+ 
+ .dropdown {
+   display: block;
+   right:500pt;
+ 
+ }
+ 
+ 
+ 
+ .dropdown-content {
+   display: none;
+   position: absolute;
+   height:20vh;
+   background-color: #f1f1f1;
+   min-width: 160px;
+   overflow: auto;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+ }
+ 
+ .dropdown-content a {
+   position: relative;
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+ }
+ 
+ .dropdown a:hover {background-color: #ddd;}
+ 
+ .show {display: block;}
+
+*/
+ 
+
+
+ 
+
+
+ /* About Us Section */
+
+ .About-us-box {
+   border:4px solid rgb(140, 225, 251);
+   border-bottom: rgb(140, 225, 251);
+   border-left: rgb(140, 225, 251);
+   border-right: rgb(140, 225, 251);
+   background: black;
+   height:40vh;
+   display: flex;
+   justify-content: center;
+   padding-top:3em;
+   
+  
+   
+   
+  
+   
+   
+ }
+
+ .About-us-box h1 {
+   color:rgb(140, 225, 251);
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 25px;
+   text-decoration: none;
+   padding-bottom:0em;
+   position: relative;
+  top:0pt;
+ }
+
+ .About-us-box p {
+   border:none;
+   padding-bottom:2.5em;
+   padding-top: 0em;
+   width:85%;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 20px;
+   position:absolute;
+   color: white;
+   bottom:-180pt;
+   text-align: center;
+   font-style: italic;
+ }
+
+ /* Title box for Social Media */
+
+ .Title-box-social-media {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  color: rgb(140, 225, 251);
+  background: black;
+  padding: 1em;
+ }
+
+ .Title-box-social-media h2 {
+  text-decoration: none;
+  font-size: 23px;
+ }
+
+ /* Socia-media-box */
+
+ .Socia-Media-Box {
+  border:2px solid rgb(0, 0, 0);
+  background: black;
+  height:15vh;
+  display:flex;
+  justify-content: center;
+  padding-bottom:0em;
+  position: relative;
+  top:0pt;
+
+ }
+
+
+
+
+ #facebook {
+  height:9vh;
+  border:2px solid rgb(0, 0, 0);
+  padding:0.1em;
+  position:relative;
+  top:3pt;
+ }
+
+ 
+
+ #instagram {
+  height:9.9vh;
+  border:2px solid rgb(0, 0, 0);
+  padding:0.9em;
+  position:relative;
+  top:0.5pt;
+ }
+
+ #VK {
+  height:11.6vh;
+  border:2px solid rgb(0, 0, 0);
+  padding:0.7em;
+  position:relative;
+  top:-5pt;
+ }
+
+
+
+ /* Menu Bar section */
+
+
+ .Menu-bar {
+    border:2px solid rgb(0, 0, 0);
+    height:18vh;
+    display:flex;
+    justify-content: center;
+    position: relative;
+    top:30pt;
+ }
+
+
+ .Menu-bar li {
+    list-style: none;
+    border:6px solid rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    width:100%;
+    text-align: center;
+    text-decoration: none;
+    padding:1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    
+ }
+
+ .Menu-bar a {
+   color: rgb(140, 225, 251);
+   text-decoration: underline;
+ }
+
+ .Menu-bar a:hover{
+   color: rgb(255, 255, 255);
+
+ }
+
+ /*First Minimization*/
+
+ @media only screen and (max-width: 580px) {
+
+  .Top-Menu-bar {
+    display: None;
+   }
+
+   .Background-Home-Page {
+
+    border:3px solid rgb(140, 225, 251);
+    border-left: black;
+    border-right: black;
+    height:100vh;
+    /*background-color:  rgb(50, 116, 161);*/
+    background-color:  rgb(0, 0, 0);
+    /*background-image: url(/IMG/Pacman\ for\ wall\ paper\ .png);*/
+    background-repeat: no-repeat;
+    background-size:contain;
+    display: flex;
+    justify-content: center;
+    padding-left:0em; 
+    
+ }
+   
+    
+    
+ }
+
+ .Background-Home-Page h2 {
+  border:none;
+  background:none;
+  height:0vh;
+  padding-top:9.5em;
+  padding-left:0em;
+  padding-right:0em;
+  padding-bottom: 0em;
+  width:100%;
+  border: 2px solid rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 35px;
+  position: absolute;
+  right:0pt;
+  top:0pt;
+  text-align: center;
+}
+
+.Background-Home-Page span {
+  color:rgb(0, 0, 0);
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+
+#AND {
+color:rgb(255, 255, 255);
+font-size: 39px;
+}
+
+.Background-Home-Page span a {
+text-decoration: none;
+color: rgb(58, 181, 225);
+font-size: 40px;
+}
+
+.Background-Home-Page span a:hover {
+color:rgb(227, 113, 71);
+}
+
+#ADVENTEROUS a:hover {
+color: rgb(0, 255, 157);
+}
+
+#Pacman {
+color:rgb(255, 251, 44);
+font-size:35px;
+}
+
+.logo {
+  border:none;
+  background:none;
+  height:0vh;
+  position: absolute;
+  
+}
+
+.logo img {
+  height:25vh;
+  border: 3px solid rgb(140, 225, 251);
+  position: relative;
+  top:30pt;
+}
+
+
+.dropbtn {
+ background-color: #659dc3;
+ color: rgb(255, 255, 255);
+ padding: 0px;
+ font-size: 16px;
+ border: none;
+ cursor: pointer;
+ 
+ 
+}
+
+#burgermenu {
+ position: absolute;
+ height:10vh;
+ top:18pt;
+ left:20pt;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+ background-color: #2980B9;
+}
+
+.dropdown {
+ display: block;
+ right:500pt;
+
+}
+
+
+
+
+
+.dropdown-content {
+ display: none;
+ position: absolute;
+ height:20vh;
+ background-color: #f1f1f1;
+ min-width: 160px;
+ overflow: auto;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ z-index: 1;
+}
+
+.dropdown-content a {
+ position: relative;
+ color: black;
+ padding: 12px 16px;
+ text-decoration: none;
+ display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+
+
+
+
+
+/* About Us Section */
+
+.About-us-box {
+  border-top:3px solid rgb(140, 225, 251);
+    border-bottom:3px solid rgb(0, 0, 0);
+    border-left: 3px solid rgb(0, 0, 0);
+    border-right: 3px solid rgb(0, 0, 0);
+ background: black;
+ height:40vh;
+ display: flex;
+ justify-content: center;
+ padding-top:3em;
+}
+
+.About-us-box h1 {
+ color:rgb(140, 225, 251);
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 25px;
+ text-decoration: none;
+ padding-bottom:0em;
+}
+
+.About-us-box p {
+ border:none;
+ padding-bottom:2.5em;
+ padding-top: 0em;
+ width:85%;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-size: 20px;
+ position:absolute;
+ color: white;
+ bottom:-180pt;
+ text-align: center;
+ font-style: italic;
+}
+
+/* Title box for Social Media */
+
+.Title-box-social-media {
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-style: italic;
+color: rgb(140, 225, 251);
+background: black;
+border:2px solid rgb(0, 0, 0);
+}
+
+.Title-box-social-media h2{
+  text-decoration: none;
+  }
+
+/* Socia-media-box */
+
+.Socia-Media-Box {
+border:2px solid rgb(0, 0, 0);
+background: black;
+height:15vh;
+display:flex;
+justify-content: center;
+padding-bottom:0em;
+}
+
+
+
+
+#facebook {
+height:9vh;
+border:2px solid rgb(0, 0, 0);
+padding:0.1em;
+position:relative;
+top:3pt;
+}
+
+
+
+#instagram {
+height:10.3vh;
+border:2px solid rgb(0, 0, 0);
+padding:1em;
+}
+
+
+/* Menu Bar section */
+
+
+.Menu-bar {
+  border:2px solid rgb(0, 0, 0);
+  height:10vh;
+  display:flex;
+  justify-content: center;
+}
+
+
+.Menu-bar li {
+  list-style: none;
+  border:6px solid rgb(140, 225, 251);
+  background: rgb(0, 0, 0);
+  width:100%;
+  text-align: center;
+  text-decoration: none;
+  padding:0.8em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  
+}
+
+.Menu-bar a {
+ color: rgb(255, 255, 255);
+ text-decoration: none;
+}
+
+.Menu-bar a:hover{
+ color: rgb(140, 225, 251);
+
+}
+
+
+
+
+
+
+
+/* Iphone 14 Pro Max */
+
+@media only screen and (max-width: 430px) {
+
+  
+
+  .Top-Menu-bar {
+    display: inline;
+    position: relative;
+    width:100%;
+    top:125pt;
+  }
+
+
+  .Top-Menu-bar {
+    border:2px solid rgb(0, 0, 0);
+    height:6vh;
+    display:flex;
+    justify-content: center;
+  }
+  
+  
+  .Top-Menu-bar li {
+    list-style: none;
+    border:1px solid rgb(0, 0, 0);
+    background: rgb(0, 0, 0);
+    width:100%;
+    text-align: center;
+    text-decoration: underline;
+    padding:0em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    
+  }
+  
+  .Top-Menu-bar a {
+   color: rgb(164, 220, 255);
+   text-decoration: none;
+  }
+  
+  .Top-Menu-bar a:hover{
+   color: rgb(255, 255, 255);
+  
+  }
+
+  .Background-Home-Page {
+
+    border-top:3px solid rgb(0, 0, 0);
+    border-left:3px rgb(140, 225, 251);
+    border-right: 3px rgb(140, 225, 251);
+    height:80vh;
+    background-color: rgb(0, 0, 0);
+    background-image: url(/IMG/Pacman\ for\ wall\ paper\ .png);
+    background-repeat: no-repeat;
+    background-size:100% 70%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:0pt;
+    background-size:contain;
+    
+    
+ }
+
+ .Background-Home-Page h2 {
+  border:2px solid rgb(0, 0, 0);
+  background:none;
+  height:20vh;
+  padding-top:0em;
+  padding-left:1em;
+  padding-right:1em;
+  width:100%;
+  color:white;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 27px;
+  position: absolute;
+  right:0pt;
+  top:330pt;
+  text-align: center;
+}
+
+.Background-Home-Page span {
+  color:rgb(0, 0, 0);
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 29px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+
+#AND {
+  color:rgb(255, 18, 18);
+  font-size: 30px;
+ }
+
+
+.Background-Home-Page span a {
+text-decoration: none;
+color: rgb(58, 181, 225);
+font-size: 30px;
+}
+
+.Background-Home-Page span a:hover {
+color:rgb(227, 113, 71);
+}
+
+#Pacman {
+color:rgb(251, 255, 20);
+font-size: 27px;
+}
+
+.logo {
+  
+  background:none;
+  height:20vh;
+  position: absolute;
+  display:flex;
+  justify-content: center;
+  
+}
+
+.logo img {
+  height:13vh;
+  border:3px solid rgb(140, 225, 251);
+  position: relative;
+  top:30pt;
+}
+
+
+.dropbtn {
+ background-color: #659dc3;
+ color: rgb(255, 255, 255);
+ padding: 0px;
+ font-size: 16px;
+ border: none;
+ cursor: pointer;
+ 
+ 
+}
+
+#burgermenu {
+ position: absolute;
+ height:10vh;
+ top:18pt;
+ left:20pt;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+ background-color: #2980B9;
+}
+
+.dropdown {
+ display: block;
+ right:500pt;
+
+}
+
+
+
+
+
+.dropdown-content {
+ display: none;
+ position: absolute;
+ height:20vh;
+ background-color: #f1f1f1;
+ min-width: 160px;
+ overflow: auto;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ z-index: 1;
+}
+
+.dropdown-content a {
+ position: relative;
+ color: black;
+ padding: 12px 16px;
+ text-decoration: none;
+ display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+
+/* About Us Section */
+
+.About-us-box {
+  border-top:3px solid rgb(140, 225, 251);
+  border-bottom:3px solid rgb(0, 0, 0);
+  border-left: 3px solid rgb(140, 225, 251);
+  border-right: 3px solid rgb(140, 225, 251);
+ background: rgb(0, 0, 0);;
+ height:28vh;
+ display: flex;
+ justify-content: center;
+ padding-top:2em;
+ position: relative;
+ top:40pt;
+}
+
+.About-us-box h1 {
+ color:rgb(140, 225, 251);
+ font-family: Arial, Helvetica, sans-serif;
+ font-style: italic;
+ font-size: 19px;
+ text-decoration: none;
+ padding-bottom:0em;
+}
+
+.About-us-box p {
+ border:2px solid rgb(0, 0, 0);
+ padding-bottom:0em;
+ padding-top: 0em;
+ width:80%;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-size: 14px;
+ position:absolute;
+ color: rgb(255, 255, 255);
+ top:65pt;
+ text-align: center;
+ font-style: italic;
+ height:10vh;
+}
+
+/* Title box for Social Media */
+
+.Title-box-social-media {
+text-align: center;
+text-decoration: underline;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-style: italic;
+color: rgb(140, 225, 251);
+background: black;
+border-top:3px solid rgb(140, 225, 251);
+border-left:3px solid rgb(140, 225, 251);
+border-right:3px solid rgb(140, 225, 251);
+padding:3em;
+position: relative;
+top:80pt;
+}
+
+.Title-box-social-media h2 {
+
+  text-decoration: none;
+}
+
+
+/* Socia-media-box */
+
+.Socia-Media-Box {
+  border-top:none;
+  border-bottom:3px solid rgb(140, 225, 251);
+  border-left: 3px solid rgb(140, 225, 251);
+  border-right: 3px solid rgb(140, 225, 251);
+background: rgb(0, 0, 0);
+height:15vh;
+display:flex;
+justify-content: center;
+padding-bottom:0em;
+position: relative;
+top:30pt;
+}
+
+
+
+
+#facebook {
+height:10vh;
+border:none;
+padding:0.1em;
+position:relative;
+top:3pt;
+}
+
+
+
+#instagram {
+height:10.5vh;
+border:none;
+padding:1em;
+position: relative;
+top:1pt;
+}
+
+
+/* Menu Bar section */
+
+
+.Menu-bar {
+  border:2px solid rgb(0, 0, 0);
+  height:0vh;
+  display:none;
+  justify-content: center;
+}
+
+
+.Menu-bar li {
+  list-style: none;
+  border:1px solid rgb(0, 0, 0);
+  background: rgb(0, 0, 0);
+  width:100%;
+  text-align: center;
+  text-decoration: underline;
+  padding:0.9em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  
+}
+
+.Menu-bar a {
+ color: rgb(164, 220, 255);
+}
+
+.Menu-bar a:hover{
+ color: rgb(255, 255, 255);
+
+}
+
+}
+
+
+/* Iphone 12 Pro */
+
+@media only screen and (max-width: 390px) {
+
+  
+
+  
+
+  .Background-Home-Page {
+
+    border-top:3px solid rgb(140, 225, 251);
+    border-bottom:3px solid rgb(140, 225, 251);
+    border-left: 3px solid rgb(140, 225, 251);
+    border-right: 3px solid rgb(140, 225, 251);
+    height:80vh;
+    background-color: rgb(0, 0, 0);
+    background-image: url(/IMG/Pacman\ for\ wall\ paper\ .png);
+    background-repeat: no-repeat;
+    background-size:100% 70%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:0pt;
+    padding-bottom: 0em;
+    
+    
+ }
+
+ .Background-Home-Page h2 {
+  border:2px solid rgb(0, 0, 0);
+  background:none;
+  height:20vh;
+  padding-top:0em;
+  padding-left:1em;
+  padding-right:1em;
+  width:100%;
+  color:rgb(255, 255, 255);
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 25px;
+  position: absolute;
+  right:0pt;
+  top:300pt;
+  text-align: center;
+}
+
+
+.Background-Home-Page span {
+
+  font-size: 23px;
+
+
+
+}
+
+.Title-box-social-media {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-style: italic;
+  color: rgb(140, 225, 251);
+  background: black;
+  border-top:3px solid rgb(140, 225, 251);
+  border-left:3px solid rgb(140, 225, 251);
+  border-right:3px solid rgb(140, 225, 251);
+  padding:3em;
+  position: relative;
+  top:80pt;
+  }
+
+  .Title-box-social-media h2 {
+    color: rgb(140, 225, 251);
+    font-size: 18px;
+    text-decoration: none;
+    
+  }
+  
+
+#facebook {
+  height:9.0vh
+}
+
+#instagram {
+  height:10.4vh;
+  border:2px solid rgb(0, 0, 0);
+  padding:1em;
+  position:relative;
+  Top:-1pt;
+  }
+
+
+}
+
+
+/* Iphone SE */
+
+
+@media only screen and (max-width: 375px) {
+
+  
+
+  .Background-Home-Page {
+
+    border:3px solid rgb(255, 255, 255);
+    border-left: black;
+    border-right: black;
+    height:90vh;
+    background-color: rgb(0, 0, 0);
+    background-image: url(/IMG/Pacman\ for\ wall\ paper\ .png);
+    background-repeat: no-repeat;
+    background-size:100% 75%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:0pt;
+    
+    
+ }
+
+ .Background-Home-Page h2 {
+  border:2px solid rgb(0, 0, 0);
+  background:none;
+  height:18vh;
+  padding-top:0em;
+  padding-left:1em;
+  padding-right:1em;
+  width:100%;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  position: absolute;
+  right:0pt;
+  top:165pt;
+  text-align: center;
+}
+
+.Background-Home-Page span {
+  color:rgb(0, 0, 0);
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 24px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+
+.Background-Home-Page span a {
+text-decoration: none;
+color: rgb(58, 181, 225);
+}
+
+.Background-Home-Page span a:hover {
+color:rgb(227, 113, 71);
+}
+
+#Pacman {
+color:rgb(251, 255, 20);
+}
+
+
+
+/* About Us Section */
+
+.About-us-box {
+  border:2px solid rgb(0, 0, 0);
+  border-bottom: none;
+  border-left: black;
+  border-right: black;
+  background: black;
+  height:28vh;
+  display: flex;
+  justify-content: center;
+  padding-top:2em;
+  position: relative;
+  top:40pt;
+ }
+ 
+ .About-us-box h1 {
+  color:rgb(140, 225, 251);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  padding-bottom:0em;
+ }
+ 
+ .About-us-box p {
+  border:2px solid rgb(0, 0, 0);
+  padding-bottom:0em;
+  padding-top: 0em;
+  width:80%;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 10px;
+  position:absolute;
+  color: white;
+  top:65pt;
+  text-align: center;
+  font-style: italic;
+  height:10vh;
+ }
+ 
+ /* Title box for Social Media */
+ 
+ .Title-box-social-media {
+ text-align: center;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 10px;
+ font-style: italic;
+ color: #f1f1f1;
+ background: black;
+ border:1px solid rgb(0, 0, 0);
+ padding:3em;
+ position: relative;
+ top:80pt;
+ }
+
+ .Title-box-social-media h2 {
+  text-decoration:none ;
+ }
+ 
+ /* Socia-media-box */
+ 
+ .Socia-Media-Box {
+ border:none;
+ background: rgb(0, 0, 0);
+ height:15vh;
+ display:flex;
+ justify-content: center;
+ padding-bottom:0em;
+ position: relative;
+ top:80pt;
+ }
+
+ .Title-box-social-media h2 {
+  color: rgb(140, 225, 251);
+  font-size: 18px;
+  text-decoration: none;
+  
+}
+
+
+ 
+ 
+ 
+ 
+ #facebook {
+ height:7vh;
+ border:2px solid rgb(0, 0, 0);
+ padding:0.1em;
+ position:relative;
+ top:3pt;
+ }
+ 
+ 
+ 
+ #instagram {
+ height:9.5vh;
+ border:2px solid rgb(0, 0, 0);
+ padding:1em;
+ position: relative;
+ top:-2pt;
+ }
+
+ #VK {
+  height:11.4vh;
+  border:2px solid rgb(0, 0, 0);
+  padding:0.7em;
+  position:relative;
+  top:-3pt;
+ }
+
+
+
+}
+
+
+/* Samsung Galaxy S8+ */
+
+
+@media only screen and (max-width: 360px) {
+
+  
+
+  .Background-Home-Page {
+
+    border:3px solid rgb(255, 255, 255);
+    border-left: black;
+    border-right: black;
+    height:90vh;
+    background-color: rgb(0, 0, 0);
+    background-image: url(/IMG/Pacman\ for\ wall\ paper\ .png);
+    background-repeat: no-repeat;
+    background-size:100% 75%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:0pt;
+    
+    
+ }
+
+ .Background-Home-Page h2 {
+  border:2px solid rgb(0, 0, 0);
+  background:none;
+  height:18vh;
+  padding-top:0em;
+  padding-left:1em;
+  padding-right:1em;
+  width:100%;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  position: absolute;
+  right:0pt;
+  top:195pt;
+  text-align: center;
+}
+
+.Background-Home-Page span {
+  color:rgb(0, 0, 0);
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 24px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+
+.Background-Home-Page span a {
+text-decoration: none;
+color: rgb(58, 181, 225);
+}
+
+#instagram {
+  height:8.7vh;
+  border:2px solid rgb(0, 0, 0);
+  padding:1em;
+  position:relative;
+  Top:-2pt;
+  }
+
+}

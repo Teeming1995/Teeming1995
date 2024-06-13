@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background:none;
+    
+ }
+
+ body{
+   background-color:  rgb(255, 255, 255);
+ }
+
+ .logo img {
+   height:60vh;
+   position: relative;
+   top:100pt;
+   padding:0em;
+   border:2px solid white;
+ }
+
+
+ 
+
+ /* First Section -- Also the background of Home Page */
+
+ .Background-Home-Page {
+
+    border:none;
+    border-left: black;
+    border-right: black;
+    height:100vh;
+    background-color: rgb(50, 116, 161);
+    display: flex;
+    justify-content: center;
+    
+    
+ }
+
+
+
+
+ /* Second section for Menu-bar */
+
+ .Menu-bar {
+    border-top:2px solid rgb(0, 0, 0);
+    border-bottom:2px solid rgb(0, 0, 0);
+    height:20vh;
+    display:flex;
+    justify-content: center;
+ }
+
+ 
+ .Menu-bar li {
+    list-style: none;
+    border:2px solid rgb(0, 0, 0);
+    color: azure;
+    background: rgb(0, 0, 0);
+    width:100%;
+    text-align: center;
+    text-decoration: none;
+    padding:1.7em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    
+ }
+
+ .Menu-bar a {
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+   
+ }
+
+ .Menu-bar a:hover{
+   color: rgb(35, 150, 216);
+
+ }
+
+ /* Second section */
+
+ .Poster {
+    border:3px solid black;
+    height:80vh;
+ }
